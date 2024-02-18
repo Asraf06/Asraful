@@ -1,0 +1,49 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>How to create a responsive website html css</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a class="logo" href="#">Asraful</a>
+        <input type="checkbox" id="menu-btn" class="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a2 href="index.html">Home</a2></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="imageslider.html">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <div class="na">
+        <div class="content">
+            <h2>asraful<span>hossain</span></h2>
+            <p class="content" id="typing">Hi, I'm Asraful and I'm a </p>
+        <div class="mana">
+        <a href="#">learn more</a>
+    </div>
+        </div>
+    </div>
+    </div>
+    <script src='index.js'></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".mana"),{
+        max: 60,
+        speed: 700,
+        glare: true,
+        "max-glare": 0
+        })
+    </script>
+</body>
+</html>
