@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eyes Follow Mouse Cursor in JavaScript</title>
+    <title>About The site</title>
     <link rel="stylesheet" href="about.css">
 </head>
 <body>
@@ -17,9 +17,12 @@
         <ul class="menu">
             <li><a href="index.html">Home</a></li>
             <li><a2 href="about.html">About</a2></li>
-            <li><a href="imageslider.html">Projects</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="Projects.html">Projects</a></li>
             <li><a href="#">Contact</a></li>
+            <label class="switch">
+                <input type="checkbox" onclick="toggleDarkMode()">
+                <span class="slider"></span>
+              </label>
         </ul>
     </header>
     <div>
@@ -30,7 +33,6 @@
         <div class="container">
             <div class="card">
                 <div class="content">
-                    <h2>AHN</h2>
                     <h3>About</h3>
                     <p>Hay,There I am Asraful. The website was developed by me.
                         This is a personal website.
@@ -43,6 +45,7 @@
         </div>
         <div class="circle"></div>
     </div>
+    <script src='index.js'></script>
     <script>
         document.querySelector("body").addEventListener("mousemove", animate);
 
